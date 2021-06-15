@@ -1,0 +1,17 @@
+# Write a Python program to check whether a specified value is contained in a group of values.
+
+my_list = []
+
+specified_value = int(input('Enter value : '))
+
+my_list.insert(0, 1)
+my_list.insert(1, 5)
+my_list.insert(2, 8)
+my_list.insert(3, 3)
+
+if specified_value in my_list:
+    print(True)
+else:
+    print(False)
+
+print(my_list)
